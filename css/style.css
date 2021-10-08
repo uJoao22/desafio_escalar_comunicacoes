@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(228, 228, 228);
+}
+
+nav{
+    background-color: rgba(0,0,0,0.8);
+    padding: 15px;
+}
+
+input{
+    background: transparent;
+    color: black;
+    border: none;
+    outline: none;
+    width: 100px;
+    padding-left: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+.name{ width: 100%; }
+.mensal { display: block; }
+.anual, .saveTV, .savePlayer { display: none; }
+
+.bi{ cursor: pointer; }
+.bi:hover{ transform: scale(1.1); }
+.bi:active{ fill: rgb(71, 71, 71); }
